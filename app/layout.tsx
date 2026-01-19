@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Vaga: Consultor de Vendas - Prime Academia',
+  title: 'Vaga: Consultor de Vendas - Atendimento',
   description: 'Oportunidade CLT para Consultor de Vendas em Salvador - Grupo de Academia com mais de 25 anos no mercado',
   generator: 'v0.app',
   openGraph: {
