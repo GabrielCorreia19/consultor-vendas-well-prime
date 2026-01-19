@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   openGraph: {
     title: 'Vaga: Consultor de Vendas - Prime Academia',
-    description: 'Clique para ver vagas de servente, oficial e outras oportunidades na construção civil.',
+    description: 'Clique para ver vagas de consultor de vendas.',
     type: 'website',
   },
   icons: {
