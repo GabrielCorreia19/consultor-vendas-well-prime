@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: 'Vaga: Consultor de Vendas - Prime Academia',
   description: 'Oportunidade CLT para Consultor de Vendas em Salvador - Grupo de Academia com mais de 25 anos no mercado',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Vaga: Consultor de Vendas - Prime Academia',
+    description: 'Clique para ver vagas de servente, oficial e outras oportunidades na construção civil.',
+    type: 'website',
+  },
   icons: {
     icon: [
       {
