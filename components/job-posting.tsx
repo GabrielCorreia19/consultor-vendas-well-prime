@@ -92,7 +92,7 @@ export function JobPosting() {
 
                     <div className="mt-3 flex items-center justify-center gap-2">
                       <div className="h-px w-8 bg-[#d4a853]/50" />
-                      <span className="text-white/70 text-sm">Salário + Comissões + Benefícios</span>
+                      <span className="text-white/70 text-sm">Salário + Taxa de programa + Benefícios</span>
                       <div className="h-px w-8 bg-[#d4a853]/50" />
                     </div>
                   </div>
@@ -163,14 +163,14 @@ export function JobPosting() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { icon: TrendingUp, text: "Salário fixo CLT + comissões sobre vendas" },
-              { icon: Gift, text: "Premiação semanal por equipe via PIX" },
+              { icon: TrendingUp, text: "Salário fixo CLT + Taxa de programa + Taxa de matrícula	" },
+              { icon: Gift, text: "PIX semanal por premiação em equipe" },
               { icon: TrendingUp, text: "Plano de crescimento no grupo" },
               { icon: Users, text: "Treinamento completo + perfil DISC" },
-              { icon: Gift, text: "Cesta básica" },
+              { icon: Gift, text: "Cesta básica de alimentos" },
               { icon: Star, text: "Programa de bem-estar e qualidade de vida" },
               { icon: Dumbbell, text: "Treino gratuito na academia" },
-              { icon: Target, text: "Comissões e Bônus por metas batidas" },
+              { icon: Target, text: "Bônus por metas batidas" },
               { icon: Users, text: "Networking constante com alunos e profissionais" }
             ].map((benefit, index) => (
               <div
